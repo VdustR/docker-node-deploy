@@ -1,0 +1,28 @@
+{
+  "name": "docker-node-deploy",
+  "version": "0.0.1",
+  "description": "A Dockerfile with rsync based on docker node",
+  "main": "index.js",
+  "scripts": {
+    "commit": "npx git-cz",
+    "build": "bash ./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VdustR/docker-node-deploy.git"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "rsync"
+  ],
+  "author": "ViPro <VdustR@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VdustR/docker-node-deploy/issues"
+  },
+  "homepage": "https://github.com/VdustR/docker-node-deploy#readme",
+  "devDependencies": {
+    "commitizen": "^2.10.1"
+  }
+}
