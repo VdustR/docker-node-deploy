@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/VdustR/docker-node-deploy#readme",
   "devDependencies": {
-    "commitizen": "^2.10.1"
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
